@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Aplikasi kasir sederhana berbasis C++ untuk mengelola buku, stok, transaksi penjualan, dan mencetak struk.</b>
+  <b>Mini Aplikasi kasir sederhana berbasis C++ untuk mengelola buku, stok, transaksi penjualan, dan mencetak struk.</b>
 </p>
 
 <p align="center">
