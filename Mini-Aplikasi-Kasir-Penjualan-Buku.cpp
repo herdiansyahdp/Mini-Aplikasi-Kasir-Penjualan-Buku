@@ -9,7 +9,6 @@
 #include <cstdlib>
 using namespace std;
 
-// Pengganti Sleep() dari windows.h supaya bisa jalan di OS apa pun
 void tunda(int ms) {
     this_thread::sleep_for(chrono::milliseconds(ms));
 }
