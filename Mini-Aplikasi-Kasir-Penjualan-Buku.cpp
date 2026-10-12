@@ -23,7 +23,7 @@ T bacaAngka(const string& prompt) {
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // buang sisa baris
             return nilai;
         }
-        if (cin.eof()) exit(0); // input sudah habis, hindari loop tak berujung
+        if (cin.eof()) exit(0); // untuk menghindari loop tak berujung jika input sudah habis
         cout << "Input harus berupa angka!\n";
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
